@@ -26,6 +26,20 @@ button{
 button:hover{
     background-color: #b2e0b2;
 }
+img{
+    margin-left: 10%;
+    border-radius: 2rem;
+}
+.bullshit{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight:bolder;
+    font-size: larger;
+    color: green;
+    margin: 20%;
+}
+br{
+    margin-bottom:2rem;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -36,6 +50,10 @@ button:hover{
     button{
         
         margin-bottom: 0%;
+    }
+    img{
+        margin-left: 25%;
+        border-radius: 2rem;
     }
 } 
 
